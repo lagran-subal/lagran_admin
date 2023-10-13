@@ -1,0 +1,11 @@
+/dist/
+*.pyc
+*.sqlite3
+*.egg*
+*.swp
+*~
+*.log
+.idea
+/lagran_admin_panel.egg-info/
+/lagran_admin.egg-info/
+/build/
