@@ -1,11 +1,6 @@
-from setuptools import setup, find_packages
+from setuptools import setup
 
 setup(
-    name='lagran_admin_panel',
-    version='0.1',
-    packages=find_packages(),
-    package_data={
-        '': ['templates/*', 'static/*'],
-    },
-    
-)
+    name = 'lagran_admin',
+    version = '0.3'
+    )

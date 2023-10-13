@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: lagran-admin
-Version: 0.1
+Version: 0.3
 Summary: Admin Panel
 Home-page: https://github.com/lagransubal/lagran_admin.git
 Author: Subal Das
@@ -24,8 +24,10 @@ Quick Start
 ==============
 
 INSTALLED_APPS = [
-    ...
-    'lagran_admin'
+    
+    'lagran_admin',
+    'django.contrib.admin',
 ]
+
 
 python manage.py migrate
