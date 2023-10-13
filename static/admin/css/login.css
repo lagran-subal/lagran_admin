@@ -26,10 +26,10 @@
 
 .login #container {
     background: var(--body-bg);
-    border: 2px solid var(--hairline-color);
+    border: 1px solid var(--hairline-color);
     border-radius: 4px;
     overflow: hidden;
-    width: 40em;
+    width: 35em;
     min-width: 300px;
     margin: 100px auto;
     height: auto;
