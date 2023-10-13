@@ -1,5 +1,24 @@
 /* LOGIN FORM */
 
+.login-form h1 {
+    font-size: 2.5rem;
+    color: #008080;
+}
+
+.logincolor {
+    color: #333333;
+}
+.lagranimage {
+    display: flex;
+    justify-content: center;
+}
+
+@media (min-width: 992px) { 
+    .lagranimage {
+        padding-top: 20px; 
+    }
+}
+
 .login {
     background: var(--darkened-bg);
     height: auto;
